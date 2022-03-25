@@ -1,0 +1,55 @@
+/* .container .heading{
+    position: absolute;
+    font-size: 45px;
+    color: #fff;
+    top: 60px;
+    left: 50px;
+    z-index: 1;
+}
+ 
+.container .form p{
+    color: #1904e5;
+    font-weight: 600;
+}
+
+.container .form {
+  margin-top: 200px;
+}
+
+.container .form .inputbox {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.inputbox input {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    color: #888;
+  border: none;
+  background: #dddddd56;
+  padding: 13px 13px;
+  margin: 5px 0;
+  border-radius: 30px;
+}
+
+.inputbox input:focus{
+    outline: none;
+}
+
+.inputbox input[type="password"] {
+    font-size: 20px;
+}
+
+.inputbox input[type="submit"] {
+  cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 15px;
+    background-image: linear-gradient(-135deg, #fab2ff 10%, #1904e5 100%);
+}
+
+.links{
+    color: #888;
+  font-size: 18px;
+  font-weight: 600;
+} */

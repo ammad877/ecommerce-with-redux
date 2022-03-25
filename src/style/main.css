@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.main {
+  background: #e6e6e6;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main .circle_one {
+  position: absolute;
+  height: 750px;
+  width: 750px;
+  background-image: linear-gradient(135deg, #fab2ff 10%, #1904e5 100%);
+  top: -180px;
+  left: -170px;
+  border-radius: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.main .circle_two {
+  position: absolute;
+  height: 850px;
+  width: 850px;
+  background-image: linear-gradient(-135deg, #fab2ff 10%, #1904e5 100%);
+  bottom: -280px;
+  right: -10px;
+  border-radius: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.container {
+  position: relative;
+  background: #fff;
+  height: 600px;
+  width: 400px;
+  overflow: hidden;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.container .home_heading{
+  position: absolute;
+    font-size: 45px;
+    color: #fff;
+    top: 65px;
+    left: 25px;
+    z-index: 1;
+}
+
+.container .circle-1 {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient(135deg, #fab2ff 10%, #1904e5 100%);
+  top: -180px;
+  left: -120px;
+  border-radius: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.container .circle-2 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-image: linear-gradient(-135deg, #fab2ff 10%, #1904e5 100%);
+  top: 15px;
+  right: 60px;
+  border-radius: 50%;
+  z-index: 1;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.container p {
+  /* margin-top: 15px; */
+  color: #888;
+}
+
+
+.container .signup_link {
+  position: relative;
+  margin-top: 15px;
+}
+
+.signup_link .links {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* ---------------------- LOGIN CSS ------------------------- */
+
+.container .heading{
+    position: absolute;
+    font-size: 45px;
+    color: #fff;
+    top: 60px;
+    left: 50px;
+    z-index: 1;
+}
+
+.container .form p{
+    color: #681ac2;
+    font-weight: 600;
+}
+
+.container .form {
+  margin-top: 200px;
+}
+
+.container .form .inputbox p{ 
+  margin: 2%;
+}
+
+.inputbox input {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    color: #888;
+  border: none;
+  background: #dddddd56;
+  padding: 13px 13px;
+  /* margin: 5px 0; */
+  border-radius: 30px;
+}
+
+.inputbox input:focus{
+    outline: none;
+}
+
+.inputbox input[type="password"] {
+    font-size: 20px;
+}
+
+.inputbox input[type="submit"] {
+    margin-top: 15px;
+  cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 15px;
+    background-image: linear-gradient(-135deg, #fab2ff 10%, #1904e5 100%);
+}
+
+/* .links{
+    margin-top: 10px;
+color: #888;
+  font-size: 18px;
+  font-weight: 600;
+} */
